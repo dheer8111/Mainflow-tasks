@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#calc {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content {
+    background: #231e1b;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+#content form input {
+    border: 0;
+    outline: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 15px;
+    margin: 10px;
+    cursor: pointer;
+}
+#backspace {
+    background-color: #e6deda;
+    color: rgb(14, 12, 12);
+}
+#res {
+    padding: 10px;
+}
+#clear {
+    background-color: #eae4e1;
+    color: rgb(23, 19, 19);
+}
+form #output {
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px 0;
+}
+form #output input {
+    text-align: right;
+    flex: 1;
+    font-size: 25px;
+}
+body{
+    background :url('https://wallpapers.com/images/hd/aesthetically-pleasing-royal-wallpaper-por6uarznxxhtub7.jpg') no-repeat center center/cover;
+
+}
